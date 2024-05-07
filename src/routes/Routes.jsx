@@ -1,5 +1,3 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import Navbar from 'components/navbar/Navbar';
 import { Home, Movie, MovieDetails } from '../views/';
 import { Navigate, createBrowserRouter } from 'react-router-dom';
@@ -54,10 +52,4 @@ const routes = createBrowserRouter([
   },
 ]);
 
-const App = () => (
-  <BrowserRouter basename="/your_repo_name/">
-    {routes}
-  </BrowserRouter>
-);
-
-export default App;
+export default routes;
