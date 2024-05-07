@@ -1,8 +1,8 @@
 import Navbar from 'components/navbar/Navbar';
 import { Home, Movie, MovieDetails } from '../views/';
-import { Navigate, createBrowserRouter } from 'react-router-dom';
+import { Navigate, createHashRouter } from 'react-router-dom';
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   {
     path: '/',
     element: (
