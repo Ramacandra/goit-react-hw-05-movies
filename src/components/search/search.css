@@ -1,0 +1,14 @@
+.search-form {
+  text-align: center;
+}
+.form {
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.submit-btn {
+  &:hover {
+    cursor: pointer;
+    background-color: azure;
+  }
+}

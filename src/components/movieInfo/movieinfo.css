@@ -1,0 +1,20 @@
+.content,
+.title {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+.btn {
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #2170e0;
+  color: white;
+}
+.ul {
+  list-style: none;
+}
